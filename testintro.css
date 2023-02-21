@@ -6,6 +6,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #a6a2a3;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c06c84;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #cd5c7c;
+}
 :root {
   --primary-color: #fff;
   --secondary-color: #453c67;
