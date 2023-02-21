@@ -624,7 +624,7 @@ progress::-webkit-progress-bar {
 }
 @media only screen and (min-width: 500px) and (max-width: 900px){
   .main {
-    background-color: yellow;
+    /* background-color: yellow; */
     /* background-color: red; */
 
     font-family: "Alice", serif;
@@ -639,7 +639,7 @@ progress::-webkit-progress-bar {
     align-items: center;
   }
   .my-studies {
-    background-color:#a1aab1;
+    /* background-color:#a1aab1; */
     margin-top: 0px;
     width: 100vw;
   }
@@ -663,7 +663,7 @@ progress::-webkit-progress-bar {
     font-family: "Alice", serif;
     font-family: "Mulish", sans-serif;
     color: var(--secondary-color);
-    font-size: 2.8vw;
+    font-size: 2vw;
   }
   .lio {
     display: flex;
