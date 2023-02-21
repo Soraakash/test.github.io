@@ -259,7 +259,7 @@ h3 {
     z-index: 15;
   }
   .main {
-    background-color: yellow;
+    /* background-color: yellow; */
 
     font-family: "Alice", serif;
     font-family: "Mulish", sans-serif;
@@ -325,15 +325,16 @@ h3 {
 @media only screen and (min-width: 200px) and (max-width: 500px) {
   .main {
     /* background-color: yellow; */
+    /* background-color: red; */
+
     font-family: "Alice", serif;
     font-family: "Mulish", sans-serif;
     height: 1300px;
     width: 100vw;
     display: flex;
-    margin-top: 20%;
     flex-direction: column;
     /* border: 2px solid red; */
-
+    margin-bottom: 120px;
     align-items: center;
   }
 
@@ -400,8 +401,8 @@ h3 {
 
 /* Studies section */
 .my-studies {
-  /* background-color:#e2577e; */
-  margin-top: 110px;
+  /* background-color:#5b4148; */
+  margin-top: 0px;
   width: 100vw;
 }
 .my-studies h1 {
@@ -512,7 +513,7 @@ progress::-webkit-progress-bar {
 
 @media only screen and (min-width: 900px) and (max-width: 1200px){
 .main {
-    /* background-color: yellow; */
+    /* background-color: red; */
     font-family: "Alice", serif;
     font-family: "Mulish", sans-serif;
     width: 100vw;
@@ -621,9 +622,26 @@ progress::-webkit-progress-bar {
     border-radius: 25px;
   }
 }
-@media (max-width: 900px) {
-  .my-studies h1{
-    font-size: 9vw;
+@media only screen and (min-width: 500px) and (max-width: 900px){
+  .main {
+    background-color: yellow;
+    /* background-color: red; */
+
+    font-family: "Alice", serif;
+    font-family: "Mulish", sans-serif;
+    height: 1400px;
+    width: 100vw;
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    margin-bottom: 120px;
+    align-items: center;
+  }
+  .my-studies {
+    background-color:#a1aab1;
+    margin-top: 0px;
+    width: 100vw;
   }
   nav ul {
     display: flex;
@@ -645,7 +663,7 @@ progress::-webkit-progress-bar {
     font-family: "Alice", serif;
     font-family: "Mulish", sans-serif;
     color: var(--secondary-color);
-    font-size: 2.5vw;
+    font-size: 2.8vw;
   }
   .lio {
     display: flex;
@@ -667,7 +685,7 @@ progress::-webkit-progress-bar {
   }
   progress {
     border: none;
-    width: 60vw;
+    width: 65vw;
     background: #e2577e;
     border-radius: 15px;
     height: 14px;
